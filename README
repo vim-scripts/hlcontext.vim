@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=763
+
+This is based on VIMTIP #548: Using H and L keys as context sensitive pagedown/pageup by Usman Latif (original tip) and johann-guenter.simon's scrolloff fix/tip
+
+All I have done is stuff the above in a script and add <plug> and (possible) a little clean up. Original tip is included in script file.
+
+In short this makes H and L context sensitive; If H is invoked when cursor is not at the top of the window it will be placed at the top of the window, if it is at the top of the window <pageup> and keep cursor at top of window. Same idea for L (save go down)
+
+If you like you can remap <plug>HLContextPlug_H and <plug>HLContextPlug_L to different keys
+
+Comments and whatnot welcome of course.
